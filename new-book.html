@@ -11,6 +11,8 @@
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous">
+
+      <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
 
@@ -73,6 +75,23 @@
               <div class="text-secondary">
                 Titolo versione italiana
               </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <label for="formFile" class="form-label fs-5 fw-medium">Genere</label>
+              <select id="select" class="form-select" aria-label="Default select example">
+                <option selected>Scegli il genere</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>   
+            </div>
+            <div class="col-12 col-md-4">
+              <label for="formFile" class="form-label fs-5 fw-medium">Anno di Pubblicazione</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Inserisci l'anno" required>
+            </div>
+            <div class="col-12 col-md-4">
+              <label for="formFile" class="form-label fs-5 fw-medium">ISBN#</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Inserisci il codice ISBN#" required>
             </div>
           </form>
           <!-- /aggiungi nuovo libro form -->
